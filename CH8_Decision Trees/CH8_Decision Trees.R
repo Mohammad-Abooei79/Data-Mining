@@ -1,7 +1,6 @@
 library("rpart"); library("rpart.plot"); library("C50"); library('ggplot2')
 
-Churn <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH8/Churn.csv",
-                  stringsAsFactors = TRUE)
+Churn <- read.csv("C:/Churn.csv", stringsAsFactors = TRUE)
 
 # Finding the correlated variables
 
