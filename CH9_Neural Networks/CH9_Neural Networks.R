@@ -1,7 +1,7 @@
 set.seed(123456)
 library(neuralnet); library(ggplot2)
 Churn <- read.csv("C:/Users/ASUS/Desktop/CH9_Neural Networks/Churn.csv", stringsAsFactors = TRUE)
-Churn <- Churn[1:500,]
+Churn <- Churn[1:500,]           # Comment this line if computation time is not important
 
 # Finding the correlated variables
 ggplot(Churn ,aes(Day.Charge, Day.Mins)) + geom_point()
@@ -49,10 +49,4 @@ print(churnnet)
 plot(churnnet, show.weights = FALSE)
 churnnet$weights
 
-"
-X_mean <- c(rep(0, length(Churn[1,])))
-for(i in 1:length(Churn[1,])){
-  X_mean[i] <- mean(Churn[,i])
-}
-"
 
