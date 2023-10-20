@@ -1,5 +1,4 @@
-Churn <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH14/Churn.csv", 
-                  stringsAsFactors = TRUE)
+Churn <- read.csv("C:/Churn.csv", stringsAsFactors = TRUE)
 library(rpart); library(rpart.plot); library(ggplot2)
 
 # Finding the correlated variables
