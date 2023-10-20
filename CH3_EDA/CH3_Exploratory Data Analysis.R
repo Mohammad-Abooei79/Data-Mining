@@ -1,7 +1,4 @@
-"Stu Name: Mohammad Abooei Mehrizi"
-"Stu Number: 810998078"
-
-adult <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH3/adult.csv")
+adult <- read.csv("C:/adult.csv")
 library(ggplot2)
 
 # Q22
