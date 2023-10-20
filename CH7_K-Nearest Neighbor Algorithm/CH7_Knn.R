@@ -1,5 +1,5 @@
 # reading the data set
-ClassifyRisk <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH7/ClassifyRisk.csv")
+ClassifyRisk <- read.csv("/ClassifyRisk.csv")
 
 library(class)
 
@@ -13,7 +13,7 @@ range_income <- max(ClassifyRisk$income) - min(ClassifyRisk$income)
 ClassifyRisk_2$age <- (ClassifyRisk$age - min(ClassifyRisk$age))/range_age
 ClassifyRisk_2$income <- (ClassifyRisk$income - min(ClassifyRisk$income))/range_income
 
-# reclassifying the marital status variable
+# Reclassifying the marital status variable
 for (i in 1:length(ClassifyRisk_2$marital_status)) {
   if(ClassifyRisk_2$marital_status[i] == 'single') {ClassifyRisk_2$marital_status[i] = 0}
   else{ClassifyRisk_2$marital_status[i] = 1}
