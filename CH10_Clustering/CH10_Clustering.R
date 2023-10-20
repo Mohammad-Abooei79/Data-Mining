@@ -5,7 +5,7 @@ library(FactoMineR)
 library(factoextra)
 library(cluster)
 
-cereal <- read.csv("F:/Data Mining/R/HW_CH10/cereal.csv")
+cereal <- read.csv("C:/cereal.csv")
 # deleting unnecessary variables
 cereal <- cereal[, -c(1,16)]
 
