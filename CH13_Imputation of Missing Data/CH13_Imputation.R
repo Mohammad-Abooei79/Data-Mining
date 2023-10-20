@@ -1,4 +1,4 @@
-cereal <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH13/cereal.csv")
+cereal <- read.csv("C:/cereal.csv")
 
 # replacing missing values (-1) with NAs
 for (i in 1:length(cereal[1,])){
