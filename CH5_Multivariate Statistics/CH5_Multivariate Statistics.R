@@ -1,9 +1,5 @@
-"Stu Name: Mohammad Abooei Mehrizi"
-"Stu Number: 810998078"
-
-
 # reading the data set
-cereal <- read.csv("C:/Users/Asus/Dropbox/My PC (DESKTOP-NN6U0SM)/Downloads/Documents/Data Mining/R/HW_CH5/cereal.csv")
+cereal <- read.csv("C:/cereal.csv")
 
 # Q11
 rating <- cereal$rating
